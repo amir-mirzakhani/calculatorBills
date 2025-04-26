@@ -22,7 +22,7 @@ Designed with a modern aesthetic and a focus on simplicity.
 ## 📸 Preview
 
 ![App Preview](./assets/images/desktop-design-empty.jpg) <!-- Update the path if needed -->
-see the demo <a href=">here</a>
+see the demo <a href="https://amir-mirzakhani.github.io/calculatorBills/">here</a>
 
 ## 🚀 Getting Started
 
