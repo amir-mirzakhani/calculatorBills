@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <h1 class="header-text">SPLI <br />TTER</h1>
+    <div class="container">
+      <div class="left">
+        <form class="bills">
+          <label for="bill">Bill</label>
+          <div class="input-icon-wrapper">
+            <i class="fa-solid fa-dollar-sign"></i>
+            <input type="number" id="bill" placeholder="0" />
+          </div>
+        </form>
+
+        <div class="tip-section">
+          <p>Select Tip %</p>
+          <div class="btn-container">
+            <div class="btns-tip">
+              <button type="button" value="5">5%</button>
+              <button type="button" value="10">10%</button>
+              <button type="button" value="15">15%</button>
+            </div>
+            <div class="btns-tip">
+              <button type="button" value="25">25%</button>
+              <button type="button " value="50">50%</button>
+              <input type="number" placeholder="Custom" class="custpm-tip" />
+            </div>
+          </div>
+        </div>
+
+        <form class="bills">
+          <div class="error">
+            <label for="number">Number of People</label>
+            <p>Can't be zero</p>
+          </div>
+          <div class="input-icon-wrapper">
+            <i class="fa-solid fa-user"></i>
+            <input type="number" id="number" placeholder="0" />
+          </div>
+        </form>
+      </div>
+
+      <div class="right">
+        <div>
+          <div class="container-amount">
+            <div class="text-amount">
+              <h5>Tip Amount</h5>
+              <p>/ person</p>
+            </div>
+            <p class="number-amount">$0.00</p>
+          </div>
+          <div class="container-amount">
+            <div class="text-amount">
+              <h5>Total</h5>
+              <p>/ person</p>
+            </div>
+            <p class="number-total">$0.00</p>
+          </div>
+        </div>
+        <button class="reset-btn" type="button">RESET</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
